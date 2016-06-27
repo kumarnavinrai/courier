@@ -1,0 +1,119 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function write_to_excel() 
+{
+str="";
+
+var mytable = document.getElementsByTagName("table")[0];
+var rowCount = mytable.rows.length;
+var colCount = mytable.getElementsByTagName("tr")[0].getElementsByTagName("td").length;	
+
+var ExcelApp = new ActiveXObject("Excel.Application");
+var ExcelSheet = new ActiveXObject("Excel.Sheet");
+ExcelSheet.Application.Visible = true;
+
+	for(var i=0; i<rowCount; i++) 
+	{	
+		for(var j=0; j<colCount; j++) 
+		{			
+			str= mytable.getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML;
+			ExcelSheet.ActiveSheet.Cells(i+1,j+1).Value = str;
+		}
+	}
+}
+
+
+
+
+function write_to_csv() 
+{
+str="";
+
+var mytable = document.getElementsByTagName("table")[0];
+var rowCount = mytable.rows.length;
+var colCount = mytable.getElementsByTagName("tr")[0].getElementsByTagName("td").length;	
+
+var ExcelApp = new ActiveXObject("Excel.Application");
+var ExcelSheet = new ActiveXObject("Excel.Sheet");
+ExcelSheet.Application.Visible = true;
+
+var mytable = document.getElementsByTagName("table")[0];
+var rowCount = mytable.rows.length;
+var colCount = mytable.getElementsByTagName("tr")[0].getElementsByTagName("td").length;	
+
+	for(var i=0; i<rowCount; i++) 
+	{	
+		for(var j=0; j<colCount; j++) 
+		{
+			str= str + mytable.getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML + ",";			
+		}	
+		ExcelSheet.ActiveSheet.Cells(i+1,1).Value = str;
+		str="";	
+	}
+}
+
+
+</script>
+
+
+</head>
+<body>
+<input type="submit" value="Export to EXCEL" onClick="write_to_excel();"/>
+<input type="submit" value="Export to CSV" onClick="write_to_csv();"/>
+
+
+<br />
+
+<div id="Book1_10219" align=center x:publishsource="Excel">
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=192 style='border-collapse:
+ collapse;table-layout:fixed;width:144pt'>
+ <col width=64 span=3 style='width:48pt'>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl1510219 width=64 style='height:12.75pt;width:48pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r1 c1</td>
+  <td class=xl1510219 width=64 style='width:48pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r1 c2</td>
+  <td class=xl1510219 width=64 style='width:48pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r1 c3</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl1510219 style='height:12.75pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r2 c1</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r2
+  c2</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r2
+  c3</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl1510219 style='height:12.75pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r3 c1</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r3
+  c2</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r3
+  c3</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl1510219 style='height:12.75pt'
+  x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r4 c1</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r4
+  c2</td>
+  <td class=xl1510219 x:fmla="=&quot;r&quot;&amp;ROW()&amp;&quot; c&quot;&amp;COLUMN()">r4
+  c3</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<body>
+</html>

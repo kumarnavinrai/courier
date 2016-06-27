@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	height: 620px;
+	width: 1000px;
+}
+#wrapper #wrpmag {
+	float: left;
+	height: 600px;
+	width: 950px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	background-image: url(../images/css-professional-72-web-templates.jpg);
+}
+#wrapper #wrpmag #msg {
+	float: left;
+	height: 30px;
+	width: 200px;
+	padding-left: 510px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #27598A;
+	text-decoration: none;
+}
+#wrapper #wrpmag #formdiv {
+	float: left;
+	height: 170px;
+	width: 710px;
+	padding-top: 200px;
+	padding-right: 120px;
+	padding-bottom: 200px;
+	padding-left: 120px;
+}
+#wrapmydiv {
+	height: auto;
+	width: 1000px;
+}
+#wrapmydiv #mydiv {
+	float: left;
+	height: auto;
+	width: 625px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#wrapper #wrpmag #formdiv #divform {
+	float: left;
+	height: 140px;
+	width: 710px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #fddiv {
+	float: left;
+	height: 25px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2A5C8D;
+	text-decoration: none;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #fddivtxt {
+	float: left;
+	height: 25px;
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #tddiv {
+	float: left;
+	height: 25px;
+	width: 200px;
+	padding-left: 10px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2B5D8E;
+	text-decoration: none;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #tddivtxt {
+	float: left;
+	height: 25px;
+	width: 400px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #custcode {
+	float: left;
+	height: 25px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1F5182;
+	text-decoration: none;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #seldiv {
+	float: left;
+	height: 25px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #btndiv #serchb {
+	float: left;
+	height: 20px;
+	width: 200px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #phpcode {
+	float: left;
+	height: 25px;
+	width: 25px;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #btndiv {
+	float: left;
+	height: 25px;
+	width: 400px;
+	padding-left: 10px;
+}
+.txt {
+	border: thin solid #295B8C;
+}
+.btn {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #295B8C;
+	border: 1px solid #25507A;
+}
+#wrapper #wrpmag #formdiv #divform #abcf #ddiv {
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #006;
+	text-decoration: none;
+	float: left;
+	height: 20px;
+	width: 200px;
+}
+#prndivid {
+	float: left;
+	height: 50px;
+	width: 600px;
+}
+.btnrelease {
+	height: 20px;
+	width: 120px;
+	margin-left: 8px;
+	color: #FFF;
+	background-color: #295B8C;
+	border: 1px solid #295B8C;
+}

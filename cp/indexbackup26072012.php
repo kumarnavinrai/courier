@@ -1,0 +1,147 @@
+<?php require_once("projectconstant.php"); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>| COURIER BILLING SYSTEM |</title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link href="courier systemchunu.css" rel="stylesheet" type="text/css" />
+<!-- Begin Vista-Buttons.com HEAD SECTION id=vbUL_wp36t-->
+<link href="mymenu-files/styles_wp36t.css" type="text/css" rel="stylesheet"/>
+<style type="text/css">A#vbUL_wp36ta{display:none}</style>
+<!-- End Vista-Buttons.com HEAD SECTION -->
+
+<!-- dd menu -->
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+</head>
+
+<body>
+<div id="head">
+  <div id="div2">
+    <div id="sec1">
+    <!-- Begin Vista-Buttons.com BODY SECTION id=vbUL_wp36t-->
+
+<table id="vista-buttons_com_idwp36t" width="0" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right:5px" title ="MAIN">
+<a onmouseover='xpe("wp36to");xpshow("wp36t",0,this);xpsmover(this);' onmouseout='xpsmout(this);' onmousedown='xpe("wp36tc");'><img id="xpi_wp36t" src="mymenu-files/btwp36t_0.png" name="vbwp36t" width="180" height="40" border="0" alt="MAIN" /></a><div>
+<ul id="vbUL_wp36t" class="vbULwp36t">
+<li><a title="CUSTOMER ADD" href="<?php echo $sitename; ?>newform/crf.php" >CUSTOMER&nbsp;ADD</a></li>
+<li><a title="CUSTOMER EDIT" href="<?php echo $sitename; ?>newform/crfedit.php" >CUSTOMER&nbsp;EDIT</a></li>
+<li><a title="BILLING" href="<?php echo $sitename; ?>newform/cef1.php" >BILLING</a></li>
+<li><a title="CHECK BILL" href="<?php echo $sitename."pb1.php"; ?>" target="_parent" >CHECK&nbsp;BILL</a></li>
+<li><a title="GROUP CUSTOMER" href="<?php echo $sitename."newform/groupcustomer.php"; ?>" >GROUP&nbsp;CUSTOMER</a></li>
+<!--<li><a title="Submenu item 7">Submenu&nbsp;item&nbsp;7</a></li>
+<li><a title="Submenu item 8">Submenu&nbsp;item&nbsp;8</a></li>
+<li><a title="Submenu item 9">Submenu&nbsp;item&nbsp;9</a></li>
+<li><a title="Submenu item 10">Submenu&nbsp;item&nbsp;10</a></li>
+<li><a title="Submenu item 11">Submenu&nbsp;item&nbsp;11</a></li>--></ul></div></td><td style="padding-right:5px" title ="BILL/ISSUE">
+<a onmouseover='xpe("4p36to");xpshow("4p36t",0,this);xpsmover(this);' onmouseout='xpsmout(this);' onmousedown='xpe("4p36tc");'><img id="xpi_4p36t" src="mymenu-files/bt4p36t_0.png" name="vb4p36t" width="188" height="40" border="0" alt="BILL/ISSUE" /></a><div>
+<ul id="vbUL_4p36t" class="vbULwp36t">
+<li><a title="RELEASE BILL" href="<?php echo $sitename."release.php"; ?>" >RELEASE&nbsp;BILL</a></li>
+<li><a title="C/N NUM SEARCH" href="<?php echo $sitename."numbersearch/"; ?>" >C/N&nbsp;NUM&nbsp;SEARCH</a></li>
+<li><a title="CHECK FOR BOOK" href="<?php echo $sitename."booksearch/"; ?>" >CHECK&nbsp;FOR&nbsp;BOOK</a></li>
+<li><a title="ISSUE BOOK" href="<?php echo $sitename."books/"; ?>" >ISSUE&nbsp;BOOK</a></li>
+<li><a title="STOCK OF BOOKS" href="<?php echo $sitename."books/stock.php"; ?>" >STOCK&nbsp;OF&nbsp;BOOKS</a></li>
+<li><a title="STOCK STATUS" href="<?php echo $sitename."books/stockstatus.php"; ?>" >STOCK&nbsp;STATUS</a></li>
+<!--<li><a title="Submenu item 15">Submenu&nbsp;item&nbsp;15</a></li>
+<li><a title="Submenu item 16">Submenu&nbsp;item&nbsp;16</a></li>
+<li><a title="Submenu item 17">Submenu&nbsp;item&nbsp;17</a></li>--></ul></div></td><td style="padding-right:5px" title ="PAYMENT TASK">
+<a onmouseover='xpe("zp36to");xpshow("zp36t",0,this);xpsmover(this);' onmouseout='xpsmout(this);' onmousedown='xpe("zp36tc");'><img id="xpi_zp36t" src="mymenu-files/btzp36t_0.png" name="vbzp36t" width="188" height="40" border="0" alt="PAYMENT TASK" /></a><div>
+<ul id="vbUL_zp36t" class="vbULwp36t">
+<li><a title="DETAIL ABT CUST BILL" href="<?php echo $sitename."billdetails/billdetails.php"; ?>" >DETAIL&nbsp;ABT&nbsp;CUST&nbsp;BILL</a></li>
+<li><a title="BILL PAYMENT" href="<?php echo $sitename."payments/payment.php"; ?>" >BILL&nbsp;PAYMENT</a></li>
+<li><a title="EDIT BILL ENTRY" href="<?php echo $sitename."editce.php"; ?>" >EDIT&nbsp;BILL&nbsp;ENTRY</a></li>
+<li><a title="PAYMENT DETAILS OF BILL" href="<?php echo $sitename."payments/paymentdetails.php"; ?>" >PAYMENT&nbsp;DETAILS&nbsp;OF&nbsp;BILL</a></li>
+<li><a title="SEARCH PAYMENT NO" href="<?php echo $sitename."searchforms/payment.php"; ?>" >SEARCH&nbsp;PAYMENT&nbsp;NO</a></li>
+<li><a title="SEARCH BILL NO" href="<?php echo $sitename."searchforms/release.php"; ?>" >SEARCH&nbsp;BILL&nbsp;NO</a></li>
+<li><a title="SEARCH EXPENSE NO" href="<?php echo $sitename."searchforms/expense.php"; ?>" >SEARCH&nbsp;EXPENSE&nbsp;NO</a></li>
+<li><a title="PAYMENTS" href="<?php echo $sitename."qtodo/btodo/payments"; ?>" >PAYMENTS</a></li>
+<li><a title="BILLS" href="<?php echo $sitename."qtodo/btodo/releasebills"; ?>" >BILLS</a></li>
+<li><a title="EXPENSES" href="<?php echo $sitename."qtodo/btodo/expenses"; ?>" >EXPENSES</a></li>
+<!--<li><a title="Submenu item 21">Submenu&nbsp;item&nbsp;21</a></li>--></ul></div></td><td style="padding-right:5px" title ="REPORTS">
+<a onmouseover='xpe("up36to");xpshow("up36t",0,this);xpsmover(this);' onmouseout='xpsmout(this);' onmousedown='xpe("up36tc");'><img id="xpi_up36t" src="mymenu-files/btup36t_0.png" name="vbup36t" width="188" height="40" border="0" alt="REPORTS" /></a><div>
+<ul id="vbUL_up36t" class="vbULwp36t">
+<li><a title="BILL AND PAYMENT REPORT" href="<?php echo $sitename."reports/"; ?>" >BILL&nbsp;AND&nbsp;PAYMENT&nbsp;REPORT	&nbsp;&nbsp;</a></li>
+<li><a title="COURIER BOOKED REPORTS" href="<?php echo $sitename."reports/courierbooked.php"; ?>" >COURIER&nbsp;BOOKED&nbsp;REPORTS</a></li>
+<li><a title="PENDING BILLS REPORTS" href="<?php echo $sitename."reports/pendingbills.php"; ?>" >PENDING&nbsp;BILLS&nbsp;REPORTS</a></li>
+<li><a title="PAID BILL REPORTS" href="<?php echo $sitename."reports/paybillsreport.php"; ?>" >PAID&nbsp;BILL&nbsp;REPORTS</a></li>
+<li><a title="COMPANY BILL TO YOU ALL CUST" href="<?php echo $sitename."reports/dtdcbill.php"; ?>" >COMPANY&nbsp;BILL&nbsp;TO&nbsp;YOU&nbsp;ALL&nbsp;CUST</a></li>
+<li><a title="COMPANY BILL TO YOU ONE CUST" href="<?php echo $sitename."reports/cbillacccust.php"; ?>" >COMPANY&nbsp;BILL&nbsp;TO&nbsp;YOU&nbsp;ONE&nbsp;CUST</a></li>
+<li><a title="INCOME TO YOU BETWEEN GIVEN DATED FROM ONE CUSTOMER" href="<?php echo $sitename."reports/cbillacccustamt.php"; ?>" >INCOME&nbsp;TO&nbsp;YOU&nbsp;BETWEEN&nbsp;GIVEN&nbsp;DATED&nbsp;FROM&nbsp;ONE&nbsp;CUSTOMER</a></li>
+<li><a title="INCOME TO YOU BETWEEN GIVEN DATES FROM ALL CUST" href="<?php echo $sitename."reports/incomeaccordingtodates.php"; ?>" >INCOME&nbsp;TO&nbsp;YOU&nbsp;BETWEEN&nbsp;GIVEN&nbsp;DATES&nbsp;FROM&nbsp;ALL&nbsp;CUST</a></li>
+<li><a title="INCOME AND PROFIT REPORT (GROSS)" href="<?php echo $sitename."reports/grossincome.php"; ?>" >INCOME&nbsp;AND&nbsp;PROFIT&nbsp;REPORT&nbsp;(GROSS)</a></li>
+<!--<li><a title="Submenu item 27">Submenu&nbsp;item&nbsp;27</a></li>
+<li><a title="Submenu item 28">Submenu&nbsp;item&nbsp;28</a></li>--></ul></div></td><td style="padding-right:5px" title ="ABOUT">
+<a onmouseover='xpe("vp36to");xpshow("vp36t",0,this);xpsmover(this);' onmouseout='xpsmout(this);' onmousedown='xpe("vp36tc");'><img id="xpi_vp36t" src="mymenu-files/btvp36t_0.png" name="vbvp36t" width="188" height="40" border="0" alt="ABOUT" /></a><div>
+<ul id="vbUL_vp36t" class="vbULwp36t">
+<li><a title="CONTACT US" href="contactus/contact.php" >CONTACT&nbsp;US</a></li>
+<li><a title="LIVE CHAT">LIVE&nbsp;CHAT</a></li>
+<!--<li><a title="Submenu item 31">Submenu&nbsp;item&nbsp;31</a></li>
+<li><a title="Submenu item 32">Submenu&nbsp;item&nbsp;32</a></li>
+<li><a title="Submenu item 33">Submenu&nbsp;item&nbsp;33</a></li>
+<li><a title="Submenu item 34">Submenu&nbsp;item&nbsp;34</a></li>
+<li><a title="Submenu item 35">Submenu&nbsp;item&nbsp;35</a></li>
+<li><a title="Submenu item 36">Submenu&nbsp;item&nbsp;36</a></li>
+<li><a title="Submenu item 37">Submenu&nbsp;item&nbsp;37</a></li>
+<li><a title="Submenu item 38">Submenu&nbsp;item&nbsp;38</a></li>
+<li><a title="Submenu item 39">Submenu&nbsp;item&nbsp;39</a></li>--></ul></div></td></tr></table><script type="text/javascript"> var vbImgPath="mymenu-files/"</script>
+<script type="text/javascript" src="mymenu-files/scwp36t.js"></script>
+<a id="vbUL_wp36ta" href="http://vista-buttons.com">Menu Javascript by Vista-Buttons.com v5.7</a>
+<!-- End Vista-Buttons.com BODY SECTION -->
+
+    
+    </div>
+  </div>
+  
+  <div id="div3"></div>
+  <div id="div1"></div>
+  <div id="div4"></div>
+</div>
+</body>
+</html>

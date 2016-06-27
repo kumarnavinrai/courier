@@ -1,0 +1,30 @@
+[30-May-2012 14:49:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:49:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:49:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:49:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:49:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:49:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:49:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:49:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:49:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:49:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:52:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:52:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:52:27 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:52:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:52:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:52:27 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:48 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:52:48 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:52:48 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 501
+[30-May-2012 14:52:48 UTC] PHP Warning:  Division by zero in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 509
+[30-May-2012 14:52:48 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:52:48 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:48 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/cellmap.cls.php on line 240
+[30-May-2012 14:52:48 UTC] PHP Notice:  Undefined index: columns in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72
+[30-May-2012 14:52:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/affi4121/public_html/cp/cp/print/include/table_cell_frame_reflower.cls.php on line 72

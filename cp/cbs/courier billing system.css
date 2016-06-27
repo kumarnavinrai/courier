@@ -1,0 +1,129 @@
+@charset "utf-8";
+#head1 {
+	height: 1100px;
+	width: 1000px;
+}
+#head1 #div1 {
+	background-image: url(courier1.jpg);
+	float: left;
+	height: 200px;
+	width: 1000px;
+}
+#head1 #div2 {
+	background-image: url(courier2.jpg);
+	float: left;
+	height: 400px;
+	width: 1000px;
+}
+                                 #head1 #div3 {
+	background-image: url(courier3.jpg);
+	float: left;
+	height: 80px;
+	width: 1000px;
+}
+#head1 #div3 #sec1 {
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec2 {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec2 {
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec3 {
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec4 {
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec5 {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec6 {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec6 {
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #div33 {
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec1 {
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec2 {
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec3 {
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div3 #sec4 {
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head1 #div4 {
+	background-image: url(courier4.jpg);
+	float: left;
+	height: 310px;
+	width: 1000px;
+}
+#head1 #div5 {
+	background-image: url(courier5%20copy.jpg);
+	float: left;
+	height: 110px;
+	width: 1000px;
+}
+#head1 #DIV5 {
+	background-image: url(courier5%20copy.jpg);
+	float: left;
+	height: 110px;
+	width: 1000px;
+}

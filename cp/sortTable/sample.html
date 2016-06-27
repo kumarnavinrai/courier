@@ -1,0 +1,113 @@
+<HTML>
+<HEAD>
+<TITLE>Sample Table</TITLE>
+</HEAD>
+<BODY onLoad='initTable("table0");initTable("table1");initTable("table2");
+		initTable("table3");initTable("table4");initTable("table5");'>
+<SCRIPT SRC="sortTable.js">
+</SCRIPT>
+<TABLE WIDTH="75%" BORDER=0>
+<TR>
+<TD width="100%" BGCOLOR="#99CCFF">
+<P>This page contains several different types of tables that are being sorted.
+</P>
+<P>The most difficult part of the script's engine is to decide what to
+choose as the titles and what to sort. In short, the script considers the
+columns such as the ones below as the valid titles and ignores data rows
+that are column/row spanned.
+<hr noshade>
+
+<P>Row-spanned title cell w/ Rows to ignore. Note that titles are bold faced.
+</P>
+<TABLE ID="table0" BORDER=1>
+	<TBODY>
+	<TR><TD align="center" ROWSPAN=2>
+	<FONT face="VERDANA, TAHOMA, ARIAL, HELVETICA">
+	<font size=2><b>No</b></font></font></TD>
+	<TD COLSPAN=2>IDS</TD>
+	<TD align="center" ROWSPAN=2>
+	<FONT face="VERDANA, TAHOMA, ARIAL, HELVETICA">
+	<font size=2><b>Date</b></font></font></TD></TR>
+	<TR><TD align="center"><FONT face="VERDANA, TAHOMA, ARIAL, HELVETICA">
+	<font size=2><b>ID</b></font></font></TD>
+	<TD align="center"><FONT face="VERDANA, TAHOMA, ARIAL, HELVETICA">
+	<font size=2><b>Device ID</b></font></font></TD></TR>
+	<TR><TD COLSPAN=4>&nbsp;</TD></TR>
+	<TR><TD COLSPAN=3>&nbsp;</TD><TD>&nbsp;</TD></TR>
+	<TR><TD>1</TD><TD>k</TD><TD>00030</TD><TD>11/09/01 12:14:00 pm</TD></TR>
+	<TR><TD>2</TD><TD>c</TD><TD>00006</TD><TD>11/11/01 12:15:00 pm</TD></TR>
+	<TR><TD>3</TD><TD>a</TD><TD>00016</TD><TD>10/16/01 08:14:00 am</TD></TR>
+	<TR><TD>4</TD><TD>b</TD><TD>00031</TD><TD>09/05/01 10:05:00 am</TD></TR>
+</TABLE>
+<hr noshade>
+<P>
+<P>Row/Column-spanned title cell w/ Rows to ignore</P>
+<TABLE ID="table1" BORDER=1>
+	<TBODY>
+	<TR><TD COLSPAN=2 ROWSPAN=2>IDS</TD><TD>&nbsp;</TD></TR>
+	<TR><TD>&nbsp;</TD></TR>
+	<TR><TD>ID</TD><TD>Device ID</TD><TD>Date</TD></TR>
+	<TR><TD COLSPAN=3>&nbsp;</TD></TR>
+	<TR><TD COLSPAN=2>&nbsp;</TD><TD>&nbsp;</TD></TR>
+	<TR><TD>k</TD><TD>00030</TD><TD>11/09/01 12:14:00 pm</TD></TR>
+	<TR><TD>c</TD><TD>00006</TD><TD>11/11/01 12:15:00 pm</TD></TR>
+	<TR><TD>a</TD><TD>00016</TD><TD>10/16/01 08:14:00 am</TD></TR>
+	<TR><TD>b</TD><TD>00031</TD><TD>09/05/01 10:05:00 am</TD></TR>
+</TABLE>
+<hr noshade>
+<P>
+<P>Row to ignore</P>
+<TABLE ID="table2" BORDER=1>
+	<TBODY>
+	<TR><TH>ID</TH><TH>Device ID</TH><TH>Date</TH><TH>Comment</TH></TR>
+	<TR><TD COLSPAN=4>&nbsp;</TD></TR>
+	<TR><TD>k</TD><TD>00030</TD><TD>11/09/01 12:14:00 pm</TD><TD>1</TD></TR>
+	<TR><TD>c</TD><TD>00006</TD><TD>11/11/01 12:15:00 pm</TD><TD>2</TD></TR>
+	<TR><TD>a</TD><TD>00016</TD><TD>10/16/01 08:14:00 am</TD><TD>3</TD></TR>
+	<TR><TD>b</TD><TD>00031</TD><TD>09/05/01 10:05:00 am</TD><TD>4</TD></TR>
+</TABLE>
+<hr noshade>
+<P>
+<P>Row to ignore. No data row to sort.</P>
+<TABLE ID="table3" BORDER=1>
+	<TBODY>
+	<TR><TH>ID</TH><TH>Device ID</TH><TH>Date</TH></TR>
+	<TR><TD COLSPAN=3>&nbsp;</TD></TR>
+	<TR><TD>k</TD><TD>00030</TD><TD>11/09/01 12:14:00 pm</TD></TR>
+	<TR><TD COLSPAN=3>&nbsp;</TD></TR>
+</TABLE>
+<hr noshade>
+<P>
+<P>Single column table</P>
+<TABLE ID="table4" BORDER=1>
+	<TBODY>
+	<TR><TH>ID</TH></TR>
+	<TR><TD>&nbsp;</TD></TR>
+	<TR><TD>k</TD></TR>
+</TABLE>
+<hr noshade>
+<P>
+<P>THEAD, TFOOT to ignore from the data rows</P>
+<TABLE ID="table5" BORDER=1>
+	<THEAD>
+	<TR><TH>ID</TH><TH>Device ID</TH><TH>Date</TH></TR>
+	</THEAD>
+	<TBODY>
+	<TR><TD>b</TD><TD>00030</TD><TD>11/09/01 12:14:00 pm</TD></TR>
+	</TBODY>
+	<THEAD>
+	<TR><TH>ID</TH><TH>Device ID</TH><TH>Date</TH></TR>
+	</THEAD>
+	<TBODY>
+	<TR><TD>a</TD><TD>00010</TD><TD>11/09/01 12:50:00 pm</TD></TR>
+	</TBODY>
+	<TFOOT>
+	<TR><TH>ID</TH><TH>Device ID</TH><TH>Date</TH></TR>
+	</TFOOT>
+</TABLE>
+<hr noshade>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

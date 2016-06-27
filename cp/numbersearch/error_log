@@ -1,0 +1,2 @@
+[23-May-2012 15:15:04 UTC] PHP Warning:  require_once(projectConstant.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/affi4121/public_html/cp/cp/php/classObject.php on line 3
+[23-May-2012 15:15:04 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'projectConstant.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/affi4121/public_html/cp/cp/php/classObject.php on line 3

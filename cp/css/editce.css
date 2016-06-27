@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+#wrapper {
+	height: 750px;
+	width: 1050px;
+}
+#wrapper #maindiv {
+	margin: 25px;
+	height: 700px;
+	width: 1000px;
+	background-image: url(../images/web-design-beach-twitter-background.jpg);
+}
+#wrapper #maindiv #msghead {
+	float: left;
+	height: 25px;
+	width: 600px;
+	padding-left: 400px;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+#wrapper #maindiv #abcid {
+	float: left;
+	height: 550px;
+	width: 900px;
+	padding-top: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.lbltxt {
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+.btncls {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #577DBB;
+	text-decoration: none;
+	background-color: #EBE6C8;
+	text-align: center;
+	border: 1px solid #000;
+}
+.txtbox {
+	border: 1px solid #D8D3B6;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #57A1C4;
+	text-decoration: none;
+	text-align: center;
+}
+</style>
+

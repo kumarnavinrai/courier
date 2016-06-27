@@ -1,0 +1,49 @@
+@charset "utf-8";
+#head {
+	height: 700px;
+	width: 1000px;
+}
+#head #div1 {
+	background-image: url(courier1%20copy.jpg);
+	float: left;
+	height: 200px;
+	width: 1000px;
+}
+#head #div2 {
+	float: left;
+	height: 70px;
+	width: 1000px;
+	background-color: #235383;
+}
+#head #div3 {
+	float: left;
+	height: 200px;
+	width: 1000px;
+}
+#head #div4 {
+	background-image: url(courier23.jpg);
+	float: left;
+	height: 178px;
+	width: 1000px;
+}
+#head #div3 {
+	float: left;
+	height: 30px;
+	width: 1000px;
+	background-color: #235383;
+}
+#head #div4 {
+	background-image: url(courier5%20copy.jpg);
+	float: left;
+	height: 110px;
+	width: 1000px;
+	margin-top: 200px;
+}
+#head #div2 #sec1 {
+	float: left;
+	height: 50px;
+	width: 990px;
+	padding-top: 15px;
+	background-color: #FFF;
+	padding-left: 10px;
+}

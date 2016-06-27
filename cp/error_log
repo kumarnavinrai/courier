@@ -1,0 +1,23 @@
+[23-May-2012 15:04:26 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'nikku27sep' (1) in /home/affi4121/public_html/cp/cp/addentrys.php on line 210
+[23-May-2012 15:12:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 313
+[23-May-2012 15:12:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 318
+[23-May-2012 15:12:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 320
+[23-May-2012 15:12:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 322
+[30-May-2012 11:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 314
+[30-May-2012 11:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 319
+[30-May-2012 11:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 321
+[30-May-2012 11:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/affi4121/public_html/cp/cp/rpbexcel.php:74) in /home/affi4121/public_html/cp/cp/rpbexcel.php on line 323
+[04-Jun-2012 10:48:54 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 10:48:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 10:53:51 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 10:53:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 10:55:23 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 10:55:23 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 11:03:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 11:03:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 11:13:00 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 11:13:00 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 11:15:29 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 11:15:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88
+[04-Jun-2012 14:28:28 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 45
+[04-Jun-2012 14:28:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/affi4121/public_html/cp/cp/rpb.php on line 88

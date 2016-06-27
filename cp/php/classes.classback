@@ -1,0 +1,151 @@
+<?php
+require_once('classObject.php');
+class payment{
+	function payment()
+	{
+	
+	$this->obj=new courierbill();
+		
+	if(isset($_POST['btncust'])){ $this->cucode=$_POST['custselect'];  }
+	
+	if(isset($_POST['btnbill'])){ $this->billno=$_POST['orderd'];  }	
+	
+	if(isset($_POST['btn_pay'])){ 
+	$this->paydate= isset($_POST['paydate'])?mysql_real_escape_string($_POST['paydate']) :NULL;
+	$this->billno= isset($_POST['billno'])?mysql_real_escape_string($_POST['billno'])  :NULL; 
+	$this->amt= isset($_POST['amt'])?mysql_real_escape_string($_POST['amt'])  :NULL;
+	$this->amtpaid= isset($_POST['apntxt'])?mysql_real_escape_string($_POST['apntxt'])  :NULL;
+	$this->amtleft= isset($_POST['aptxt'])?mysql_real_escape_string($_POST['aptxt'])  :NULL; 
+	$m=substr($this->paydate,0,2);
+	$d=substr($this->paydate,3,2);
+	$y=substr($this->paydate,6,4);
+	$this->paydate=$d."-".$m."-".$y;
+								}
+	if(isset($_POST['btnpay'])){ 
+	$this->billno=isset($_POST['billno'])?mysql_real_escape_string($_POST['billno'])  :NULL; }		
+	
+	if(isset($_POST['btnacccust'])){
+		$this->cust=isset($_POST['acust'])?mysql_real_escape_string($_POST['acust'])  :NULL;
+		$this->fd=isset($_POST['date3'])?mysql_real_escape_string($_POST['date3'])  :NULL;
+		$this->td=isset($_POST['date4'])?mysql_real_escape_string($_POST['date4'])  :NULL;
+		$this->fd=changedate($this->fd);
+		$this->td=changedate($this->td);
+	 }
+								
+	}//constructor brace ends
+	
+	function pendingpayments()
+	{
+	$a="no";
+	$rtn="<option value=''>---Select Pending Payment----</option>";
+	$sql="select * from releasebill where cucode='".$this->cucode."' and paid='".$a."'";
+	$res=$this->obj->fetch($sql);
+	if($res){ while($rw=mysql_fetch_array($res)){ $rtn.= "<option value='$rw[7]'>Bill No - $rw[7] --From Date--$rw[2]--To Date--$rw[3]----Bill Amount --$rw[4]-INR</option>";  } return $rtn; }else{ return "<option value=''>---Technical Problem Contact Admin----</option>"; } 
+	
+	}
+	
+	function piconebilldetails()
+	{
+		$sql="select * from releasebill where tid='".$this->billno."'";
+		$res=$this->obj->fetch($sql);
+		if($res){ return $res; }
+	}
+	
+	function paypayments()
+	{
+	$sql="insert into payments (billno,totalamt,paidamt,obalance,paydate) values('$this->billno','$this->amt','$this->amtpaid','$this->amtleft','$this->paydate')";
+	$res=$this->obj->execute($sql);
+	$sql="update releasebill set ba='$this->amtleft' where tid='".$this->billno."'";
+	$res=$this->obj->execute($sql);
+	if($res){ return "PAYMENT DONE"; }else{ return "TECHNICAL PROBLEM"; }
+	}
+	
+	function paydetails()
+	{
+	$rtn="<option value=''>Select Bill No</option>";	
+	$sql="select * from payments group by billno";	
+	$res=$this->obj->fetch($sql);
+	if($res){ while($rw=mysql_fetch_array($res)){  $rtn.="<option value='$rw[1]'>Bill No - $rw[1]</option>";  }  return $rtn;}else{ return "TECHNICAL PROB"; }
+	}
+	
+	function picallpayments()
+	{
+	$sql="select * from payments where billno='".$this->billno."'";
+	$res=$this->obj-> fetch($sql);
+	if($res){ while($rw=mysql_fetch_array($res)){  
+	$fd=strtotime($this->fd);
+	$td=strtotime($this->td);
+	$cd=strtotime($rw[5]);
+	if($fd<=$cd && $cd<=$td){}
+	} }
+	
+	if($res){ return $res; }else{ return "TECHNICAL PROBLEM"; }		
+	}
+	
+	function changedate($da)
+	{
+	$y=substr($da,0,4);
+	$m=substr($da,5,2);
+	$d=substr($da,8,2);
+	$rtn=$d."-".$m."-".$y;
+	return $rtn;
+	}
+	
+	function selectpayments()
+	{
+	$sql="select * from payments where billno= any (select tid from releasebill where releasebill.cucode='".$this->cust."');";
+	$res=$this->obj->fetch($sql);
+	if($res){ while($rw=mysql_fetch_array($res)){  
+	$fd=strtotime($this->fd);
+	$td=strtotime($this->td);
+	$cd=strtotime($rw[5]);
+	if($fd<=$cd && $cd<=$td){
+		$rtn=array
+		(
+			"linerw[0]"=>array
+			(
+				"rw[0]",
+				"rw[1]",
+				"rw[2]",
+				"rw[3]",
+				"rw[4]",
+				"rw[1]"
+			)
+		);
+				  
+			}
+		} 
+	if($res){ $rw=mysql_fetch_array($res); }else{ return "TECHNICAL PROBLEM"; } 
+	if($res){ return $res; }else{ return "TECHNICAL PROBLEM";}
+			
+	}
+	
+	function checkerrors()
+	{
+	
+	}
+}//class brace ends here 
+
+class selectcust{
+	
+	function selectcustnow()
+	{
+	$obj=new courierbill();
+	$sql="select * from cdata";
+	$res=$obj->fetch($sql);
+	$r="<option selected='selected' value=''>-----Select Customer-----</option>";
+	if($res){ while($rw=mysql_fetch_array($res)){ $r.="<option value='$rw[3]'>$rw[0]</option>";  }      return $r;  
+	  }	
+	}
+	
+	function piconecust($ccode)
+	{
+	$obj=new courierbill();
+	$sql="select * from cdata where ccode='".$ccode."'";
+	$res=$obj->fetch($sql);
+	if($res){ return $res; }else{ return "Technical Problem"; }
+	
+	}
+	
+}//class brace ends here
+?>

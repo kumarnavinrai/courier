@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	float: left;
+	height: 700px;
+	width: 950px;
+}
+#wrapper #maindiv {
+	float: left;
+	height: 680px;
+	width: 900px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#wrapper #maindiv #head {
+	float: left;
+	height: 72px;
+	width: 900px;
+	background-color: #762572;
+}
+#wrapper #foot {
+	background-image: url(../images/csb_header.jpg);
+	float: left;
+	height: 100px;
+	width: 900px;
+}
+#wrapper #maindiv #qdiv {
+	float: left;
+	height: 760px;
+	width: 880px;
+	border: 1px solid #033;
+	margin: 10px;
+}
+#wrapper #maindiv #qdiv #mdiv {
+	margin: 10px;
+	float: left;
+	height: 740px;
+	width: 860px;
+	border: 1px solid #009;
+}
+#wrapper #maindiv #qdiv #mdiv #ndiv {
+	float: left;
+	height: 740px;
+	width: 840px;
+	border: 1px solid #069;
+}
+#wrapper #maindiv #abc #table1 {
+	float: left;
+	height: 470px;
+	width: 900px;
+	background-image: url(../images/ghrf.jpg);
+	background-repeat: repeat-x;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 {
+	float: left;
+	height: 450px;
+	width: 900px;
+}
+#wrapper #maindiv #abc #htxt {
+	float: left;
+	height: 25px;
+	width: 900px;
+	background-color: #F0F0F0;
+	visibility: hidden;
+}
+#wrapper #maindiv #abc #sertb {
+	float: left;
+	height: 50px;
+	width: 900px;
+	background-image: url(../images/hkjhk.jpg);
+	background-repeat: repeat-y;
+}
+#wrapper #maindiv #mydiverr {
+	float: left;
+	height: 25px;
+	width: 900px;
+	background-color: #762572;
+	font-family: Calibri;
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #htxt1 {
+	float: left;
+	height: 25px;
+	width: 180px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #htxt2 {
+	float: left;
+	height: 25px;
+	width: 180px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #htxt3 {
+	float: left;
+	height: 25px;
+	width: 180px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #htxt4 {
+	float: left;
+	height: 25px;
+	width: 180px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl1 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt1 {
+	float: left;
+	height: 30px;
+	width: 220px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl2 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt2 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl3 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt3 {
+	float: left;
+	height: 30px;
+	width: 220px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt4 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl5 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt5 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl6 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt6 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt7 {
+	float: left;
+	height: 30px;
+	width: 70px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl7 {
+	float: left;
+	height: 30px;
+	width: 70px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl8 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt8 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl9 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt9 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl10 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt10 {
+	float: left;
+	height: 30px;
+	width: 147px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl11 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl12 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl13 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt13 {
+	float: left;
+	height: 30px;
+	width: 220px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl14 {
+	float: left;
+	height: 30px;
+	width: 160px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txt14 {
+	float: left;
+	height: 30px;
+	width: 220px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl15 {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #lbl15 {
+	float: left;
+	height: 30px;
+	width: 100px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #txtarea1 {
+	float: left;
+	height: 50px;
+	width: 290px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #btndiv {
+	float: left;
+	height: 30px;
+	width: 140px;
+}
+#wrapper #maindiv #abc #table1 #maintable tr td #table2 #maintable2 tr td #divlbltxt15 {
+	float: left;
+	height: 60px;
+	width: 390px;
+	padding-top: 20px;
+}
+.txtup {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F4F0E4;
+	text-decoration: none;
+	background-color: #C155C5;
+	text-align: center;
+}
+.lblall {
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+.txtall {
+	border: 1px solid #691167;
+	height: 30px;
+	width: 220px;
+	font-family: Calibri;
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+}
+.txtup {
+	border: 1px solid #C357C7;
+}
+.tbborder {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C8B79D;
+	border-right-color: #C8B79D;
+	border-bottom-color: #C8B79D;
+	border-left-color: #C8B79D;
+}
+.btn {
+	border: 1px solid #A6987E;
+}
+.btn {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	color: #732070;
+	text-decoration: none;
+	background-color: #CFC19B;
+	text-align: center;
+}
+.forselboxcls {
+	font-family: Calibri;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #999;
+	font-size: 14px;
+	font-weight: bold;
+	width: 75px;
+}

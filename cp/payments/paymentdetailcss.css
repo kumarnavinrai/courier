@@ -1,0 +1,290 @@
+#wrapperid {
+	float: left;
+	height: 1200px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapperid #outerheaderid {
+	height: 1100px;
+	width: 1200px;
+	float: left;
+}
+#wrapperid #outerheaderid #headerouterid {
+	height: 200px;
+	width: 1200px;
+	float: left;
+}
+#wrapperid #outerheaderid #headerouterid #headerid {
+	float: left;
+	height: 300px;
+	width: 1200px;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #hlogoimgid {
+	float: left;
+	height: 190px;
+	width: 263px;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #headerid {
+	float: left;
+	height: 180px;
+	width: 800px;
+	margin-left: 190px;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle {
+	float: left;
+	height: 260px;
+	width: 905px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #titlerightid {
+	float: left;
+	height: 190px;
+	width: 407px;
+}
+#wrapperid #outerheaderid #sidemenuid {
+	float: left;
+	height: 500px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #middelbodyid {
+	float: left;
+	height: 900px;
+	width: 860px;
+	background-color: #FFF7F0;
+}
+#wrapperid #outerheaderid #rightmiddelid {
+	float: left;
+	height: 500px;
+	width: 240px;
+}
+#wrapperid #bottomupid {
+	height: 300px;
+	width: 1200px;
+	float: left;
+}
+#wrapperid #footerid {
+	float: left;
+	height: 200px;
+	width: 1200px;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle #hnameid {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #EE8836;
+	text-decoration: none;
+	margin-top: 50px;
+	text-align: center;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #titlerightid #rightheaderid {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4EB37B;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#wrapperid #outerheaderid #sidemenuid #b1id {
+	height: 50px;
+	float: left;
+	width: 300px;
+	background-image: url(images/bback.jpg);
+	margin: 0px;
+}
+#wrapperid #outerheaderid #sidemenuid #b2id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b3id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b4id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b5id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b6id {
+	height: 50px;
+	width: 300px;
+	float: left;
+}
+#wrapperid #outerheaderid #sidemenuid #b7id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b8id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b9id {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#wrapperid #outerheaderid #sidemenuid #b1id #b1txt {
+	margin-top: 15px;
+	margin-left: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 40px;
+	text-align: center;
+	background-color: #19731C;
+}
+.b1txtc {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #21741C;
+	margin-top: 15px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+.txtlbl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #85CDA5;
+	text-decoration: none;
+	vertical-align: top;
+}
+.txtbox {
+	height: 20px;
+	width: 160px;
+	border: thin solid #E9D4CF;
+}
+.txta {
+	height: 20px;
+	width: 480px;
+	border: 1px solid #E9D4CF;
+}
+.txtbtn {
+	background-color: #85CDB4;
+	float: right;
+	height: 20px;
+	width: 80px;
+	border: 1px solid #E9D4CF;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle #custcode {
+	float: left;
+	height: 27px;
+	width: 600px;
+}
+.seltxt {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	height: 25px;
+	width: 150px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.lbl {
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: bold;
+	color: #096;
+	text-decoration: none;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle #listpay {
+	float: left;
+	height: 120px;
+	width: 880px;
+	padding-top: 20px;
+}
+.ordersel {
+	height: 35px;
+	width: 800px;
+	border: 2px solid #096;
+	font-family: Calibri;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle #form2 #btnbillpay {
+	float: left;
+	height: 30px;
+	width: 150px;
+}
+.btn {
+	background-color: #096;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #063;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+}
+#wrapperid #outerheaderid #headerouterid #headerid #ptitle #form2 #listpay #btndiv {
+	height: auto;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#wrapper #bbody #accor #form1id #custdiv {
+	float: left;
+	height: 30px;
+	width: 180px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 20px;
+}
+#wrapper #bbody #accor #form1id #fdtddiv {
+	float: left;
+	height: 30px;
+	width: 300px;
+	padding-top: 20px;
+}
+#wrapper #bbody #accor #form1id #fdtddiv #fromdiv {
+	font-family: Calibri;
+	font-size: 12px;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+#wrapper #bbody #accor #form1id #fdtddiv #todiv {
+	font-family: Calibri;
+	font-size: 12px;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+}
+#wrapper #bbody #accor #form1id #fdtddiv #scaldiv {
+	float: left;
+	height: 30px;
+	width: 100px;
+}
+#wrapper #bbody #accor #form1id #btncustdiv {
+	float: left;
+	height: 30px;
+	width: 90px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 20px;
+}

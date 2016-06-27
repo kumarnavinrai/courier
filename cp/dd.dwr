@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="false" wholeword="false" />
+  <find searchmode="document">
+    <qtext qname="$query1 = &quot;insert into $cucdz (cnno,special,destination,weight,pord,amtc,date,notes) values('$cunoz','$specialz','$desz','$weightz','$pordz','$amtcz','$daz','$notez')&quot;;
+
+" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="$query1 = &quot;insert into $cucdz (cnno,special,destination,weight,pord,amtb,amtc,date,notes) values('$cunoz','$specialz','$desz','$weightz','$pordz','$ambz','$amtcz','$daz','$notez')&quot;;
+" param2=""/>
+</dwquery>

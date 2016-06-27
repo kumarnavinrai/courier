@@ -1,0 +1,14 @@
+<?php echo $form->create('Releasebill');?>
+<fieldset>
+<legend>Edit Task</legend>
+<?php
+echo $form->input('cucode');
+echo $form->input('fd');
+echo $form->input('td');
+echo $form->input('ba');
+echo $form->input('paid');
+echo $form->input('billam');
+?>
+</fieldset>
+<?php echo $form->end('Save');?>
+<?php echo $html->link('Add Task', array('action'=>'add')); ?>--<?php echo $html->link('List All Task', array('action'=>'index')); ?>

@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	height: 600px;
+	width: 1000px;
+}
+#wrapper #maindiv {
+	float: left;
+	height: 580px;
+	width: 950px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+}
+#wrapper #maindiv #head {
+	background-image: url(../images/gfgfh.jpg);
+	float: left;
+	height: 100px;
+	width: 950px;
+}
+#wrapper #maindiv #foot {
+	background-image: url(../images/nmj.jpg);
+	float: left;
+	height: 50px;
+	width: 950px;
+}
+#wrapper #maindiv #foot1 {
+	background-image: url(../images/mjh.jpg);
+	float: left;
+	height: 15px;
+	width: 950px;
+}
+#wrapper #maindiv #cdiv {
+	background-image: url(../images/fghf.jpg);
+	float: left;
+	height: 400px;
+	width: 950px;
+}
+#wrapper #maindiv #mydivcust {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A05432;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	height: 30px;
+	width: 950px;
+	background-color: #AB926A;
+}
+#wrapper #maindiv #cdiv #form1 #table1 {
+	float: left;
+	height: 250px;
+	width: 800px;
+	padding-top: 10px;
+	padding-right: 75px;
+	padding-bottom: 10px;
+	padding-left: 75px;
+}
+#wrapper #maindiv #cdiv #heading {
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	height: 30px;
+	width: 950px;
+	text-align: center;
+}
+#wrapper #maindiv #cdiv #custcode {
+	float: left;
+	height: 30px;
+	width: 950px;
+}
+#wrapper #maindiv #cdiv #custcode #custcode1 {
+	float: left;
+	height: 25px;
+	width: 400px;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 5px;
+}
+#wrapper #maindiv #cdiv #custcode #custcode2 {
+	float: left;
+	height: 25px;
+	width: 380px;
+	padding-left: 20px;
+	vertical-align: middle;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+#wrapper #maindiv #cdiv #custcode #phpcode {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+#wrapper #maindiv #cdiv #btndiv {
+	float: left;
+	height: 25px;
+	width: 400px;
+	padding-left: 550px;
+	padding-top: 5px;
+}
+.lbltxt1 {
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #A05432;
+}
+.txtbox1 {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	color: #930;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #960;
+}
+.btn {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #EBE3D6;
+	text-decoration: none;
+	background-color: #A05432;
+}
+#wrapper #maindiv #head #gobtms {
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #960;
+	text-decoration: none;
+	float: left;
+	height: 30px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 20px;
+}

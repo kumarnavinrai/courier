@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="false" wholeword="false" />
+  <find searchmode="document">
+    <qtext qname="$username = &quot;cpu&quot;;
+$password = &quot;12345&quot;;
+$hostname = &quot;localhost&quot;;	
+" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="$username = &quot;abc&quot;;
+$password = &quot;123456&quot;;
+$hostname = &quot;192.168.0.234&quot;;	
+" param2=""/>
+</dwquery>

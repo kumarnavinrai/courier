@@ -1,0 +1,55 @@
+<?php $sitename=Configure::read('Site.name'); echo $sitename."abcdef"; ?>
+Showing Page <?php echo $paginator->counter(); ?>
+<h2>| Stock  |</h2>
+<?php echo $html->link('List All Stocks', array('action'=>'index')); ?>
+ 
+<?php if(empty($book)): ?>
+There is no expense in this list
+<?php else: ?>
+	<table>
+    
+		<tr>
+			<th>Stock No</th>
+            <th>Stock Date</th>
+			<th>Start No.</th>
+			<th>End No.</th>
+			<th>Comment</th>
+            <th>Actions</th>
+            <th>Actions</th>
+            <th>Actions</th>
+		</tr>
+	<?php foreach ($book as $disp): ?>
+		<tr>
+			<td>
+				<?php echo $disp['Stockrecordstbl']['id']; ?>
+			</td>
+			<td>
+				<?php echo $disp['Stockrecordstbl']['date_of_stock_en']; ?>
+			</td>
+			<td>
+				<?php echo $disp['Stockrecordstbl']['start_cn']; ?>
+			</td>
+			<td>
+				<?php echo $disp['Stockrecordstbl']['end_cn']; ?>
+			</td>
+            <td>
+				<?php echo $disp['Stockrecordstbl']['comment']; ?>
+			</td>
+            <?php //$sn=$disp['Stockrecordstbl']['start_cn_number']; $ln=$disp['Stockrecordstbl']['end_cn_number']; $idate=$disp['Stockrecordstbl']['date_of_book_issue']; ?>
+			<td>
+			<?php echo $html->link('Edit', array('action'=>'edit',$disp['Stockrecordstbl']['id'])); ?>
+			</td>
+			<td>
+			<?php echo $html->link('Delete', array('action'=>'delete',$disp['Stockrecordstbl']['id']), null, 'Are you sure you want to delete this ?'); ?>
+			</td>
+            <td>
+            <?php //echo $html->link($html->image('cake.power1.gif', array('alt'=> __("Check Stock", true), 'border'=>"0")),$sitename.'booksearch/checkb.php?sn='.$sn.'&ln='.$ln.'&sd='.$idate,array('target'=>'_parent'), null, false); ?>
+            </td>
+		</tr>
+	<?php endforeach; ?>
+    </table>
+<?php endif; ?>	
+<?php echo $paginator->prev(); ?>
+<?php echo $paginator->numbers(); ?>
+<?php echo $paginator->next(); ?>
+

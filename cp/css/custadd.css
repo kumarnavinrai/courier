@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#wrapper {
+	height: 800px;
+	width: 950px;
+}
+#wrapper #main {
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+#wrapper #main #head {
+	background-image: url(../images/lines.jpg);
+	float: left;
+	height: 100px;
+	width: 900px;
+}
+#wrapper #main #mydivcust {
+	float: left;
+	height: auto;
+	width: 800px;
+	padding-top: 5px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #063;
+	text-decoration: none;
+	background-color: #D387D2;
+}
+#wrapper #main #footer {
+	float: left;
+	height: 50px;
+	width: 900px;
+	background-image: url(../images/jfh.png);
+}
+</style>
